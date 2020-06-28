@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <meta chartset="UTF-8">
+    <title>Google logo</title>
+</head>
+
+<style>
+#img_logo {
+    position: absolute;
+    left: 530px;
+    top: 150px;
+ width:  320px;  
+ height: 200px;
+}
+#footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding-bottom: 3px;
+    background-color:rgb(197, 194, 194);
+}
+.footerli {
+    float: left;
+    display: block;
+    padding: 8px;
+
+}
+
+.search a:hover {
+    background-color: #ddd;
+}
+.search {
+    position: absolute;
+    top: 350px;
+    left: 440px;
+    
+}
+button {
+
+  margin: 25px;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  background: #dce4eb;
+  color: black;
+  font-size: 17px;
+  border: 1px solid grey;
+  border: none; /* Prevent double borders */
+  cursor: pointer;
+}
+button:hover {
+  background: #e1e9f0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-inline-end: 8px;
+}
+li a {
+
+  display: inline;
+  padding: 8px;
+  width: 60px;
+  color: #000;
+  text-decoration: none;
+}
+a {
+    display: block;
+}
+li a:hover {
+    text-decoration: underline;
+}
+</style>
+
+
+<body>
+    <toper>
+        <ul>
+            <li><a href="default.asp">Sign in</a></li>
+            <li><a href="news.asp">Apps</a></li>
+            <li><a href="contact.asp">Images</a></li>
+            <li><a href="about.asp">Gmail</a></li>
+          </ul>
+    </toper>
+
+    <main>    
+<div>
+        <img id="img_logo" src="https://cdn.vox-cdn.com/thumbor/Ei4ydi9WDwJW-dpSW_QWMiVULNs=/0x0:2012x1341/1820x1213/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg">
+</div>
+
+<form class="search">
+    <input type="text" placeholder=" " style="width: 530px; height: 35px">
+    <button type="submit">Google Search</button>
+</form>
+
+    </main>
+
+    <footer>
+        <ul id="footer">
+            <li class="footerli"><a href="default.asp">How Search Works</a></li>
+            <li class="footerli"><a href="news.asp">About</a></li>
+            <li class="footerli"><a href="contact.asp">Business</a></li>
+            <li class="footerli"><a href="about.asp">Advertising</a></li>
+          </ul>
+    </footer>
+</body>
